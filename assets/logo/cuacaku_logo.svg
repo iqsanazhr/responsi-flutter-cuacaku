@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Apple Weather Sky Squircle Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1D5BD6" />
+      <stop offset="55%" stop-color="#2E86F5" />
+      <stop offset="100%" stop-color="#60BAFA" />
+    </linearGradient>
+
+    <!-- Warm Sun Gradient -->
+    <radialGradient id="sunGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFF275" />
+      <stop offset="65%" stop-color="#FDB813" />
+      <stop offset="100%" stop-color="#F97316" />
+    </radialGradient>
+
+    <!-- Sun Outer Glow -->
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#FDE047" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Liquid Glass Cloud Fill -->
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.98" />
+      <stop offset="65%" stop-color="#EAF4FF" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#CFE6FF" stop-opacity="0.86" />
+    </linearGradient>
+
+    <!-- Specular Rim Gradient -->
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.35" />
+    </linearGradient>
+
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0A2558" flood-opacity="0.28" />
+    </filter>
+  </defs>
+
+  <!-- iOS Squircle Background -->
+  <rect x="24" y="24" width="464" height="464" rx="108" ry="108" fill="url(#skyGrad)" />
+  <rect x="25.5" y="25.5" width="461" height="461" rx="106.5" ry="106.5" fill="none" stroke="url(#rimGrad)" stroke-width="3" />
+
+  <!-- Subtle Atmospheric Glow -->
+  <circle cx="315" cy="185" r="145" fill="url(#sunGlow)" />
+
+  <!-- Sun Sphere -->
+  <circle cx="312" cy="186" r="78" fill="url(#sunGrad)" />
+
+  <!-- Liquid Glass Cloud -->
+  <g filter="url(#softShadow)">
+    <path d="M168 348 H338 C377 348 408 317 408 278 C408 242 381 212 346 208 C335 162 294 128 245 128 C189 128 144 172 141 228 C108 234 84 263 84 298 C84 326 112 348 168 348 Z"
+          fill="url(#cloudGrad)" />
+    <path d="M168 346.5 H338 C376 346.5 406.5 316 406.5 278 C406.5 243 380 213.5 345 209.5 C334 163.5 293.5 129.5 245 129.5 C190 129.5 145.5 173 142.5 229 C109.5 235 85.5 263.5 85.5 298 C85.5 325 113 346.5 168 346.5 Z"
+          fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="2.5" />
+  </g>
+
+  <!-- Crisp Raindrop Accents -->
+  <g fill="#E0F2FE" fill-opacity="0.92">
+    <path d="M178 368 C178 368 166 386 166 394 C166 400.6 171.4 406 178 406 C184.6 406 190 400.6 190 394 C190 386 178 368 178 368 Z" />
+    <path d="M248 378 C248 378 236 396 236 404 C236 410.6 241.4 416 248 416 C254.6 416 260 410.6 260 404 C260 396 248 378 248 378 Z" />
+    <path d="M318 368 C318 368 306 386 306 394 C306 400.6 311.4 406 318 406 C324.6 406 330 400.6 330 394 C330 386 318 368 318 368 Z" />
+  </g>
+</svg>
