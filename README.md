@@ -34,14 +34,32 @@ Empat tampilan utama **CuacaKu** yang diambil langsung dari **Emulator Android S
 </div>
 
 <p align="center">
+  <a href="https://youtu.be/GOPyXZQT09Q">
+    <img src="https://img.shields.io/badge/▶_Tonton_Video_Presentasi_%26_Demo-YouTube_(Full_HD)-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Video Presentasi YouTube"/>
+  </a>
+  &nbsp;
   <a href="docs/demo_cuacaku.mp4">
-    <img src="https://img.shields.io/badge/🎬_Tonton_Video_Demo-Emulator_Android_Studio_(MP4)-2563EB?style=for-the-badge" alt="Video Demo"/>
+    <img src="https://img.shields.io/badge/🎬_Rekaman_Mentah-Emulator_(MP4)-2563EB?style=for-the-badge" alt="Video Demo MP4"/>
   </a>
   &nbsp;
   <a href="assets/logo/cuacaku_logo.svg">
     <img src="https://img.shields.io/badge/🎨_Logo_Aplikasi-Vektor_SVG_Asli-0EA5E9?style=for-the-badge" alt="Logo SVG"/>
   </a>
 </p>
+
+---
+
+## 🎬 Video Presentasi Kode & Live Demo (YouTube)
+
+Klik gambar atau tautan di bawah untuk menonton video presentasi lengkap arsitektur MVVM, kode Open-Meteo API, `SharedPreferences`, serta demo langsung aplikasi **CuacaKu** di Emulator Android Studio (**Full HD 1080p**):
+
+<div align="center">
+  <a href="https://youtu.be/GOPyXZQT09Q" target="_blank">
+    <img src="https://img.youtube.com/vi/GOPyXZQT09Q/maxresdefault.jpg" alt="Tonton Video Presentasi & Demo CuacaKu di YouTube" width="85%" />
+  </a>
+  <br/>
+  <strong>🔗 Tautan YouTube:</strong> <a href="https://youtu.be/GOPyXZQT09Q">https://youtu.be/GOPyXZQT09Q</a>
+</div>
 
 ---
 
